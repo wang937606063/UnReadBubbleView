@@ -1,0 +1,16 @@
+PODS:
+  - UnReadBubbleView (0.1.0)
+
+DEPENDENCIES:
+  - UnReadBubbleView (from `../`)
+
+EXTERNAL SOURCES:
+  UnReadBubbleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UnReadBubbleView: 4a04ba047ea6af349cd128fc16faa063b7466a34
+
+PODFILE CHECKSUM: b011f8b3132206b8ed8be4b7ae6f8169baf0ad8a
+
+COCOAPODS: 1.6.1

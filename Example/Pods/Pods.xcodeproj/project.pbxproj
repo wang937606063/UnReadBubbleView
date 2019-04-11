@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA65C542CEA0A2E2EA89877CAFB9D27 /* mail_icon_change_password@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D998F3D592E0EECACDD95F40BA3A9F6D /* mail_icon_change_password@3x.png */; };
+		26EF804E8BE2D02A616C9ADE18614FCB /* idcloud0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D423E79ACF1183C5A19CE069199D228 /* idcloud0.png */; };
+		29DD0A2A8E9E584BE265F68FA567555F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3C955D6D7E292E249D1EEFEFCC5AB6E5 /* Pods-UnReadBubbleView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E6FB211C2B92A6EA855A6FB34A5483 /* Pods-UnReadBubbleView_Tests-dummy.m */; };
+		487FBC1DF91FC48E3B4D6A5C24E18D38 /* UnReadBubbleView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 789F51F28235DBF3BCEF8891FCD41689 /* UnReadBubbleView.bundle */; };
+		4C390A433A700108680B04EB38CFA491 /* UnReadBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DADFE07865BD9E322AB87D7E6D7E886 /* UnReadBubbleView.m */; };
+		7106CFF68C71302C38B2E6F9D32FC5DA /* UnReadBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 80EBABC61052806FA839B78D64580A44 /* UnReadBubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73F57E19BB1CF8094E926D6D3ECC2879 /* Pods-UnReadBubbleView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6D072C2A6CD8CF5A364A3351F88FCE /* Pods-UnReadBubbleView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7637D9C1FC2AEBC964887C5FF3BCFD8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7C10996C1FC6EF4755C89068795B45A0 /* idcloud3.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B05000AC6D9829E3130193660E8D30 /* idcloud3.png */; };
+		A497AC09F5F0C772A31594BF9463C475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BC92C5FD2DBBB91D4FE0EA48CCAA7B85 /* idcloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = 059CFE359BCBABAC2E77FE3995E34D4B /* idcloud1.png */; };
+		C6C4803002A9238DB8BD259BC7ACF901 /* Pods-UnReadBubbleView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5281C489928BE417EAB1C3EE33B4CE2 /* Pods-UnReadBubbleView_Example-dummy.m */; };
+		CFA254CBB372F13F5BB5D9C678EF0DA1 /* idcloud4.png in Resources */ = {isa = PBXBuildFile; fileRef = BB32DD593BB16F646B5B980D760C5FD5 /* idcloud4.png */; };
+		DD92E2CD9277B04A2F4AFB57446B66FD /* UnReadBubbleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF515441D5B4C99C7EBDCFAE875660E9 /* UnReadBubbleView-dummy.m */; };
+		EE4219DFF4EC88D5AD3CFEF039F4A25D /* idcloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 626681074BABE0259B8980994AC32EE5 /* idcloud2.png */; };
+		FB9CF3CA65CC7FCBFD967A724434779F /* Pods-UnReadBubbleView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A093E99295B4B9FBCBCBBA91316B13A /* Pods-UnReadBubbleView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB15BAF85A8E5A9BF151006F4BBD71A /* UnReadBubbleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E9483308C499318C797C43AD54CB51 /* UnReadBubbleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ED9B66B0F232B78F56A5872991D089F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6AD4E6602F9716D03E5884D8279EF8;
+			remoteInfo = "Pods-UnReadBubbleView_Example";
+		};
+		4F6CAFABF64C88DC30CBFA1DBFEC0E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB283BE0A47CB6B2623C3EF2B781CD2;
+			remoteInfo = UnReadBubbleView;
+		};
+		CFE9E15028308E9735B3825C7A0D34F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1896A515CAFE8F908A2EAB1CD1D5B3B;
+			remoteInfo = "UnReadBubbleView-UnReadBubbleView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006E576DE17F7202399F360E02DF271F /* UnReadBubbleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnReadBubbleView-Info.plist"; sourceTree = "<group>"; };
+		059CFE359BCBABAC2E77FE3995E34D4B /* idcloud1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idcloud1.png; path = UnReadBubbleView/Assets/idcloud1.png; sourceTree = "<group>"; };
+		17A47745009FDB71472EF9DCA2400AFF /* Pods-UnReadBubbleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnReadBubbleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		19B05000AC6D9829E3130193660E8D30 /* idcloud3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idcloud3.png; path = UnReadBubbleView/Assets/idcloud3.png; sourceTree = "<group>"; };
+		1A093E99295B4B9FBCBCBBA91316B13A /* Pods-UnReadBubbleView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnReadBubbleView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F30DF44FAD3B8D58209AAEADD91F72D /* Pods-UnReadBubbleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnReadBubbleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F6D072C2A6CD8CF5A364A3351F88FCE /* Pods-UnReadBubbleView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnReadBubbleView_Example-umbrella.h"; sourceTree = "<group>"; };
+		2545E0586FF99A312079234AEEDC855E /* Pods-UnReadBubbleView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnReadBubbleView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35E9483308C499318C797C43AD54CB51 /* UnReadBubbleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnReadBubbleView-umbrella.h"; sourceTree = "<group>"; };
+		3F4C42CF6326036C572C5B5DD6539C8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		41DF411700BEB8FD7842BA10366927B5 /* Pods-UnReadBubbleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnReadBubbleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		41E4CABEECC705A8B76FFA6F7EF89BA1 /* Pods-UnReadBubbleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnReadBubbleView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4DADFE07865BD9E322AB87D7E6D7E886 /* UnReadBubbleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UnReadBubbleView.m; path = UnReadBubbleView/Classes/UnReadBubbleView.m; sourceTree = "<group>"; };
+		511EA8A06115AD017D7603046D287352 /* Pods-UnReadBubbleView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnReadBubbleView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		517932F727C2F3C2311026F12670FAE4 /* Pods-UnReadBubbleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnReadBubbleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A07BEB49006847BDD015F7E9C26019B /* UnReadBubbleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UnReadBubbleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B93003A6063DBB0360570A9A260ED33 /* Pods_UnReadBubbleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnReadBubbleView_Tests.framework; path = "Pods-UnReadBubbleView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE0D12477A94D40953E41925FE59345 /* ResourceBundle-UnReadBubbleView-UnReadBubbleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UnReadBubbleView-UnReadBubbleView-Info.plist"; sourceTree = "<group>"; };
+		626681074BABE0259B8980994AC32EE5 /* idcloud2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idcloud2.png; path = UnReadBubbleView/Assets/idcloud2.png; sourceTree = "<group>"; };
+		6C377A1294E47323553FB78B4FC1481C /* Pods-UnReadBubbleView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnReadBubbleView_Example-Info.plist"; sourceTree = "<group>"; };
+		6D423E79ACF1183C5A19CE069199D228 /* idcloud0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idcloud0.png; path = UnReadBubbleView/Assets/idcloud0.png; sourceTree = "<group>"; };
+		6D4AAD92364ECCA639E0A5604619DA17 /* Pods-UnReadBubbleView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnReadBubbleView_Tests-Info.plist"; sourceTree = "<group>"; };
+		76275E6E601A818AA80A0C23B996F5F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		789F51F28235DBF3BCEF8891FCD41689 /* UnReadBubbleView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UnReadBubbleView.bundle; path = "UnReadBubbleView-UnReadBubbleView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2EC144C3FEAA2DCD4AD8BFAEE041D4 /* UnReadBubbleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnReadBubbleView.framework; path = UnReadBubbleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C620360590565E80E7D030020F6E9C /* Pods_UnReadBubbleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnReadBubbleView_Example.framework; path = "Pods-UnReadBubbleView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80EBABC61052806FA839B78D64580A44 /* UnReadBubbleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnReadBubbleView.h; path = UnReadBubbleView/Classes/UnReadBubbleView.h; sourceTree = "<group>"; };
+		853D79289ABBAF5498B0718A4AA1B1D7 /* UnReadBubbleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnReadBubbleView.modulemap; sourceTree = "<group>"; };
+		85E6FB211C2B92A6EA855A6FB34A5483 /* Pods-UnReadBubbleView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnReadBubbleView_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A251CEAF88BA793D90DBCB59DDAC9D8C /* Pods-UnReadBubbleView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnReadBubbleView_Example.modulemap"; sourceTree = "<group>"; };
+		A6106C43CE5303D28C14DC878205F8E8 /* Pods-UnReadBubbleView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnReadBubbleView_Tests.modulemap"; sourceTree = "<group>"; };
+		BB266805EB422C46592CD12126D87D17 /* Pods-UnReadBubbleView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnReadBubbleView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB32DD593BB16F646B5B980D760C5FD5 /* idcloud4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = idcloud4.png; path = UnReadBubbleView/Assets/idcloud4.png; sourceTree = "<group>"; };
+		C5281C489928BE417EAB1C3EE33B4CE2 /* Pods-UnReadBubbleView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnReadBubbleView_Example-dummy.m"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD2495EFA8F0AACEFB42D12A9ABFA330 /* UnReadBubbleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnReadBubbleView-prefix.pch"; sourceTree = "<group>"; };
+		D998F3D592E0EECACDD95F40BA3A9F6D /* mail_icon_change_password@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mail_icon_change_password@3x.png"; path = "UnReadBubbleView/Assets/mail_icon_change_password@3x.png"; sourceTree = "<group>"; };
+		F34EED9965ABA44E9F1F46DB33EC2786 /* Pods-UnReadBubbleView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnReadBubbleView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FA9CFF21AAACA1C51DB833195896DD6C /* UnReadBubbleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnReadBubbleView.xcconfig; sourceTree = "<group>"; };
+		FF515441D5B4C99C7EBDCFAE875660E9 /* UnReadBubbleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnReadBubbleView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C9AD1153E03B13A19AB6C7123D861C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		123CFC89EB7AE005E8EAAA8770A67D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7637D9C1FC2AEBC964887C5FF3BCFD8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8245DE405BFA20EF659CAFB16BB13ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DD0A2A8E9E584BE265F68FA567555F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E4AB59289544484495223C1C408162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A497AC09F5F0C772A31594BF9463C475 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DA614D9A9B83A176DC125E4FBC86FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0D12477A94D40953E41925FE59345 /* ResourceBundle-UnReadBubbleView-UnReadBubbleView-Info.plist */,
+				853D79289ABBAF5498B0718A4AA1B1D7 /* UnReadBubbleView.modulemap */,
+				FA9CFF21AAACA1C51DB833195896DD6C /* UnReadBubbleView.xcconfig */,
+				FF515441D5B4C99C7EBDCFAE875660E9 /* UnReadBubbleView-dummy.m */,
+				006E576DE17F7202399F360E02DF271F /* UnReadBubbleView-Info.plist */,
+				CD2495EFA8F0AACEFB42D12A9ABFA330 /* UnReadBubbleView-prefix.pch */,
+				35E9483308C499318C797C43AD54CB51 /* UnReadBubbleView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UnReadBubbleView";
+			sourceTree = "<group>";
+		};
+		36371CF9CA8A865EF66359B4CF2C691F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				475F120CBC8D945F1BE5D65A3CA90EE5 /* UnReadBubbleView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		475F120CBC8D945F1BE5D65A3CA90EE5 /* UnReadBubbleView */ = {
+			isa = PBXGroup;
+			children = (
+				80EBABC61052806FA839B78D64580A44 /* UnReadBubbleView.h */,
+				4DADFE07865BD9E322AB87D7E6D7E886 /* UnReadBubbleView.m */,
+				478F5325ABC81FDE6A8FA14C8FA90A16 /* Pod */,
+				79AD0E0AF096F6804EF6B1E28ACB41BE /* Resources */,
+				09DA614D9A9B83A176DC125E4FBC86FD /* Support Files */,
+			);
+			name = UnReadBubbleView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		478F5325ABC81FDE6A8FA14C8FA90A16 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F4C42CF6326036C572C5B5DD6539C8B /* LICENSE */,
+				76275E6E601A818AA80A0C23B996F5F0 /* README.md */,
+				5A07BEB49006847BDD015F7E9C26019B /* UnReadBubbleView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6CCDD74B1FF7B6D79693071D91F45582 /* Pods-UnReadBubbleView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A6106C43CE5303D28C14DC878205F8E8 /* Pods-UnReadBubbleView_Tests.modulemap */,
+				2545E0586FF99A312079234AEEDC855E /* Pods-UnReadBubbleView_Tests-acknowledgements.markdown */,
+				517932F727C2F3C2311026F12670FAE4 /* Pods-UnReadBubbleView_Tests-acknowledgements.plist */,
+				85E6FB211C2B92A6EA855A6FB34A5483 /* Pods-UnReadBubbleView_Tests-dummy.m */,
+				6D4AAD92364ECCA639E0A5604619DA17 /* Pods-UnReadBubbleView_Tests-Info.plist */,
+				1A093E99295B4B9FBCBCBBA91316B13A /* Pods-UnReadBubbleView_Tests-umbrella.h */,
+				1F30DF44FAD3B8D58209AAEADD91F72D /* Pods-UnReadBubbleView_Tests.debug.xcconfig */,
+				41DF411700BEB8FD7842BA10366927B5 /* Pods-UnReadBubbleView_Tests.release.xcconfig */,
+			);
+			name = "Pods-UnReadBubbleView_Tests";
+			path = "Target Support Files/Pods-UnReadBubbleView_Tests";
+			sourceTree = "<group>";
+		};
+		79AD0E0AF096F6804EF6B1E28ACB41BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D423E79ACF1183C5A19CE069199D228 /* idcloud0.png */,
+				059CFE359BCBABAC2E77FE3995E34D4B /* idcloud1.png */,
+				626681074BABE0259B8980994AC32EE5 /* idcloud2.png */,
+				19B05000AC6D9829E3130193660E8D30 /* idcloud3.png */,
+				BB32DD593BB16F646B5B980D760C5FD5 /* idcloud4.png */,
+				D998F3D592E0EECACDD95F40BA3A9F6D /* mail_icon_change_password@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		86CE55F2A16707BDE59B29DB7F6CB366 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D96A98828AD858D1E74A314AA70F1D9F /* Pods-UnReadBubbleView_Example */,
+				6CCDD74B1FF7B6D79693071D91F45582 /* Pods-UnReadBubbleView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				36371CF9CA8A865EF66359B4CF2C691F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F69C6286EA21FDF65A08C29D2EE4C4E4 /* Products */,
+				86CE55F2A16707BDE59B29DB7F6CB366 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96A98828AD858D1E74A314AA70F1D9F /* Pods-UnReadBubbleView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A251CEAF88BA793D90DBCB59DDAC9D8C /* Pods-UnReadBubbleView_Example.modulemap */,
+				BB266805EB422C46592CD12126D87D17 /* Pods-UnReadBubbleView_Example-acknowledgements.markdown */,
+				511EA8A06115AD017D7603046D287352 /* Pods-UnReadBubbleView_Example-acknowledgements.plist */,
+				C5281C489928BE417EAB1C3EE33B4CE2 /* Pods-UnReadBubbleView_Example-dummy.m */,
+				F34EED9965ABA44E9F1F46DB33EC2786 /* Pods-UnReadBubbleView_Example-frameworks.sh */,
+				6C377A1294E47323553FB78B4FC1481C /* Pods-UnReadBubbleView_Example-Info.plist */,
+				1F6D072C2A6CD8CF5A364A3351F88FCE /* Pods-UnReadBubbleView_Example-umbrella.h */,
+				17A47745009FDB71472EF9DCA2400AFF /* Pods-UnReadBubbleView_Example.debug.xcconfig */,
+				41E4CABEECC705A8B76FFA6F7EF89BA1 /* Pods-UnReadBubbleView_Example.release.xcconfig */,
+			);
+			name = "Pods-UnReadBubbleView_Example";
+			path = "Target Support Files/Pods-UnReadBubbleView_Example";
+			sourceTree = "<group>";
+		};
+		F69C6286EA21FDF65A08C29D2EE4C4E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C620360590565E80E7D030020F6E9C /* Pods_UnReadBubbleView_Example.framework */,
+				5B93003A6063DBB0360570A9A260ED33 /* Pods_UnReadBubbleView_Tests.framework */,
+				789F51F28235DBF3BCEF8891FCD41689 /* UnReadBubbleView.bundle */,
+				7F2EC144C3FEAA2DCD4AD8BFAEE041D4 /* UnReadBubbleView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B649D08D03065B54A2DFE317AC13838 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9CF3CA65CC7FCBFD967A724434779F /* Pods-UnReadBubbleView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B640A297833BFA502070D45E4AC66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F57E19BB1CF8094E926D6D3ECC2879 /* Pods-UnReadBubbleView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633239475824BB7688087DF7AF40E8EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB15BAF85A8E5A9BF151006F4BBD71A /* UnReadBubbleView-umbrella.h in Headers */,
+				7106CFF68C71302C38B2E6F9D32FC5DA /* UnReadBubbleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D6AD4E6602F9716D03E5884D8279EF8 /* Pods-UnReadBubbleView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B4A4B25C0EDC17AB1797F046B82279 /* Build configuration list for PBXNativeTarget "Pods-UnReadBubbleView_Example" */;
+			buildPhases = (
+				105B640A297833BFA502070D45E4AC66 /* Headers */,
+				11AD5972D299A311453F077EA6180D11 /* Sources */,
+				123CFC89EB7AE005E8EAAA8770A67D8D /* Frameworks */,
+				27575C20A26017BDED0C1DE86BEACA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B5258B7392F795A76689C498CD9F4D /* PBXTargetDependency */,
+			);
+			name = "Pods-UnReadBubbleView_Example";
+			productName = "Pods-UnReadBubbleView_Example";
+			productReference = 80C620360590565E80E7D030020F6E9C /* Pods_UnReadBubbleView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DBD02C3122BE910F5040FC87CDF9EF1 /* Pods-UnReadBubbleView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0A438867727B75AAA03BC23EAB4855 /* Build configuration list for PBXNativeTarget "Pods-UnReadBubbleView_Tests" */;
+			buildPhases = (
+				0B649D08D03065B54A2DFE317AC13838 /* Headers */,
+				A2C1F29FB384043230B0D680AA8D74A4 /* Sources */,
+				99E4AB59289544484495223C1C408162 /* Frameworks */,
+				63BD617402D21353DDAB313B38E47D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67CB8C0C3135F461604321741386A484 /* PBXTargetDependency */,
+			);
+			name = "Pods-UnReadBubbleView_Tests";
+			productName = "Pods-UnReadBubbleView_Tests";
+			productReference = 5B93003A6063DBB0360570A9A260ED33 /* Pods_UnReadBubbleView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1896A515CAFE8F908A2EAB1CD1D5B3B /* UnReadBubbleView-UnReadBubbleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03D284745E333010FD0C941CD86193E /* Build configuration list for PBXNativeTarget "UnReadBubbleView-UnReadBubbleView" */;
+			buildPhases = (
+				620E1D2A23ABF792546307E730A1F3A5 /* Sources */,
+				00C9AD1153E03B13A19AB6C7123D861C /* Frameworks */,
+				781546C472FDFFFC7C51F72081C91488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UnReadBubbleView-UnReadBubbleView";
+			productName = "UnReadBubbleView-UnReadBubbleView";
+			productReference = 789F51F28235DBF3BCEF8891FCD41689 /* UnReadBubbleView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CEB283BE0A47CB6B2623C3EF2B781CD2 /* UnReadBubbleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B3318AA9EBC275587F9E7AA732AE09 /* Build configuration list for PBXNativeTarget "UnReadBubbleView" */;
+			buildPhases = (
+				633239475824BB7688087DF7AF40E8EF /* Headers */,
+				D9ED9BC98909D75B77E08F4FD9332040 /* Sources */,
+				8245DE405BFA20EF659CAFB16BB13ECD /* Frameworks */,
+				65E6E2492A5082624C7C1E5AC3A799F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC48FFF4A59B5F5C9EF38758856B4E81 /* PBXTargetDependency */,
+			);
+			name = UnReadBubbleView;
+			productName = UnReadBubbleView;
+			productReference = 7F2EC144C3FEAA2DCD4AD8BFAEE041D4 /* UnReadBubbleView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F69C6286EA21FDF65A08C29D2EE4C4E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D6AD4E6602F9716D03E5884D8279EF8 /* Pods-UnReadBubbleView_Example */,
+				4DBD02C3122BE910F5040FC87CDF9EF1 /* Pods-UnReadBubbleView_Tests */,
+				CEB283BE0A47CB6B2623C3EF2B781CD2 /* UnReadBubbleView */,
+				B1896A515CAFE8F908A2EAB1CD1D5B3B /* UnReadBubbleView-UnReadBubbleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27575C20A26017BDED0C1DE86BEACA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BD617402D21353DDAB313B38E47D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E6E2492A5082624C7C1E5AC3A799F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487FBC1DF91FC48E3B4D6A5C24E18D38 /* UnReadBubbleView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781546C472FDFFFC7C51F72081C91488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EF804E8BE2D02A616C9ADE18614FCB /* idcloud0.png in Resources */,
+				BC92C5FD2DBBB91D4FE0EA48CCAA7B85 /* idcloud1.png in Resources */,
+				EE4219DFF4EC88D5AD3CFEF039F4A25D /* idcloud2.png in Resources */,
+				7C10996C1FC6EF4755C89068795B45A0 /* idcloud3.png in Resources */,
+				CFA254CBB372F13F5BB5D9C678EF0DA1 /* idcloud4.png in Resources */,
+				0BA65C542CEA0A2E2EA89877CAFB9D27 /* mail_icon_change_password@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11AD5972D299A311453F077EA6180D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C4803002A9238DB8BD259BC7ACF901 /* Pods-UnReadBubbleView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620E1D2A23ABF792546307E730A1F3A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C1F29FB384043230B0D680AA8D74A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C955D6D7E292E249D1EEFEFCC5AB6E5 /* Pods-UnReadBubbleView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9ED9BC98909D75B77E08F4FD9332040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD92E2CD9277B04A2F4AFB57446B66FD /* UnReadBubbleView-dummy.m in Sources */,
+				4C390A433A700108680B04EB38CFA491 /* UnReadBubbleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67CB8C0C3135F461604321741386A484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UnReadBubbleView_Example";
+			target = 3D6AD4E6602F9716D03E5884D8279EF8 /* Pods-UnReadBubbleView_Example */;
+			targetProxy = 1ED9B66B0F232B78F56A5872991D089F /* PBXContainerItemProxy */;
+		};
+		B4B5258B7392F795A76689C498CD9F4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnReadBubbleView;
+			target = CEB283BE0A47CB6B2623C3EF2B781CD2 /* UnReadBubbleView */;
+			targetProxy = 4F6CAFABF64C88DC30CBFA1DBFEC0E75 /* PBXContainerItemProxy */;
+		};
+		EC48FFF4A59B5F5C9EF38758856B4E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UnReadBubbleView-UnReadBubbleView";
+			target = B1896A515CAFE8F908A2EAB1CD1D5B3B /* UnReadBubbleView-UnReadBubbleView */;
+			targetProxy = CFE9E15028308E9735B3825C7A0D34F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		06EC3F899C5D83AF3BC7A3BC6417283F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DF411700BEB8FD7842BA10366927B5 /* Pods-UnReadBubbleView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnReadBubbleView_Tests/Pods-UnReadBubbleView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnReadBubbleView_Tests/Pods-UnReadBubbleView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		71985F20180A305E3BB86B02E6A9A03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A47745009FDB71472EF9DCA2400AFF /* Pods-UnReadBubbleView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnReadBubbleView_Example/Pods-UnReadBubbleView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnReadBubbleView_Example/Pods-UnReadBubbleView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91B47BBBCBE36A336B1969128367AA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9CFF21AAACA1C51DB833195896DD6C /* UnReadBubbleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UnReadBubbleView";
+				INFOPLIST_FILE = "Target Support Files/UnReadBubbleView/ResourceBundle-UnReadBubbleView-UnReadBubbleView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UnReadBubbleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9D0D962E88CAE32A6CD217E5866CFCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9CFF21AAACA1C51DB833195896DD6C /* UnReadBubbleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UnReadBubbleView";
+				INFOPLIST_FILE = "Target Support Files/UnReadBubbleView/ResourceBundle-UnReadBubbleView-UnReadBubbleView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UnReadBubbleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9D3D1220CC63F66DBF9A246241A83B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9CFF21AAACA1C51DB833195896DD6C /* UnReadBubbleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnReadBubbleView/UnReadBubbleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnReadBubbleView/UnReadBubbleView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UnReadBubbleView/UnReadBubbleView.modulemap";
+				PRODUCT_MODULE_NAME = UnReadBubbleView;
+				PRODUCT_NAME = UnReadBubbleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2238CDB3BC102F4199B88771CA6EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F30DF44FAD3B8D58209AAEADD91F72D /* Pods-UnReadBubbleView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnReadBubbleView_Tests/Pods-UnReadBubbleView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnReadBubbleView_Tests/Pods-UnReadBubbleView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB884BA7AE5E8A081A9341DB324B9446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9CFF21AAACA1C51DB833195896DD6C /* UnReadBubbleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnReadBubbleView/UnReadBubbleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnReadBubbleView/UnReadBubbleView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UnReadBubbleView/UnReadBubbleView.modulemap";
+				PRODUCT_MODULE_NAME = UnReadBubbleView;
+				PRODUCT_NAME = UnReadBubbleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2E7BFEBB214523F2E8CDDFB6343AEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E4CABEECC705A8B76FFA6F7EF89BA1 /* Pods-UnReadBubbleView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnReadBubbleView_Example/Pods-UnReadBubbleView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnReadBubbleView_Example/Pods-UnReadBubbleView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40B4A4B25C0EDC17AB1797F046B82279 /* Build configuration list for PBXNativeTarget "Pods-UnReadBubbleView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71985F20180A305E3BB86B02E6A9A03C /* Debug */,
+				F2E7BFEBB214523F2E8CDDFB6343AEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03D284745E333010FD0C941CD86193E /* Build configuration list for PBXNativeTarget "UnReadBubbleView-UnReadBubbleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0D962E88CAE32A6CD217E5866CFCDE /* Debug */,
+				91B47BBBCBE36A336B1969128367AA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B3318AA9EBC275587F9E7AA732AE09 /* Build configuration list for PBXNativeTarget "UnReadBubbleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3D1220CC63F66DBF9A246241A83B3B /* Debug */,
+				CB884BA7AE5E8A081A9341DB324B9446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0A438867727B75AAA03BC23EAB4855 /* Build configuration list for PBXNativeTarget "Pods-UnReadBubbleView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2238CDB3BC102F4199B88771CA6EA6A /* Debug */,
+				06EC3F899C5D83AF3BC7A3BC6417283F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

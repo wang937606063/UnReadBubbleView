@@ -1,0 +1,27 @@
+{
+  "name": "UnReadBubbleView",
+  "version": "0.1.0",
+  "summary": "A short description of UnReadBubbleView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wang937606063/UnReadBubbleView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wang937606063": "937606063@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wang937606063/UnReadBubbleView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UnReadBubbleView/Classes/**/*",
+  "resource_bundles": {
+    "UnReadBubbleView": [
+      "UnReadBubbleView/Assets/*"
+    ]
+  }
+}

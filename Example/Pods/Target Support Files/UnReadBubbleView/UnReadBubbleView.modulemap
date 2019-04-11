@@ -1,0 +1,6 @@
+framework module UnReadBubbleView {
+  umbrella header "UnReadBubbleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,17 +7,20 @@
 //
 
 #import "PFViewController.h"
-
+#import "PFSecondViewController.h"
 @interface PFViewController ()
 
 @end
 
 @implementation PFViewController
+- (IBAction)nextVC:(id)sender {
+    PFSecondViewController * secondVC = [[PFSecondViewController alloc]init];
+    [self.navigationController pushViewController:secondVC animated:YES];
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning

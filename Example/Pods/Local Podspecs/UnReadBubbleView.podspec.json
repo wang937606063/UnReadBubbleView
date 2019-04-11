@@ -1,8 +1,8 @@
 {
   "name": "UnReadBubbleView",
   "version": "0.1.0",
-  "summary": "A short description of UnReadBubbleView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "类似qq的可拖拽气泡",
+  "description": "提供可拖拽功能的气泡类似qq的未读信息",
   "homepage": "https://github.com/wang937606063/UnReadBubbleView",
   "license": {
     "type": "MIT",

@@ -209,8 +209,8 @@
         
         if (r1 <=_breakViscosity&&critical<newCritical) {
             NSBundle * bundle = [NSBundle bundleForClass:[self class]];
-            
-            UIImageView * imageview = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"Image0"]];
+            NSString * imagebundldPath =[bundle pathForResource:@"UnReadBubbleView" ofType:@"bundle"];
+            UIImageView * imageview = [[UIImageView alloc]initWithImage:[UIImage imageWithContentsOfFile:[imagebundldPath stringByAppendingPathComponent:@"idcloud0.png"]]];
             imageview.bounds = CGRectMake(0, 0, self.bubbleWidth*2, self.bubbleWidth*2);
             imageview.center = frontView.center;
             [frontView.superview addSubview:imageview];
@@ -226,9 +226,8 @@
             fillColorForCute = [UIColor clearColor];
             [shapeLayer removeFromSuperlayer];
             if ([[[UIDevice currentDevice] systemVersion] compare:@"6.9"] == NSOrderedAscending) {
-                
             [UIView animateWithDuration:0.5 delay:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-                 frontView.center = oldBackViewCenter;
+                frontView.center = oldBackViewCenter;
             } completion:^(BOOL finished) {
                 if (finished) {
                     if (_showGameCenterAnimation) {
@@ -243,7 +242,7 @@
             } else{
             
             [UIView animateWithDuration:0.5 delay:0.0f usingSpringWithDamping:0.4f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-                frontView.center = oldBackViewCenter;
+                frontView.center = self->oldBackViewCenter;
             } completion:^(BOOL finished) {
                 
                 if (finished) {
